@@ -44,7 +44,13 @@ class Main extends PluginBase implements Listener{
                         $this->give();
                         break;
                     }
+			case "slayer":
+                        $this->give();
+                        break;
                 }
+		    case "feeder":
+                        $this->give();
+                        break;
             }
         }
         return true;
