@@ -35,8 +35,7 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool {
         if(strtolower($command->getName()) === "minions"){
             if(count($args) < 2){
-
-                if(isset($args[0])){
+if(isset($args[0])){
 
                     switch($args[0]){
                         
@@ -44,13 +43,7 @@ class Main extends PluginBase implements Listener{
                         $this->give();
                         break;
                     }
-			case "slayer":
-                        $this->give();
-                        break;
                 }
-		    case "feeder":
-                        $this->give();
-                        break;
             }
         }
         return true;
