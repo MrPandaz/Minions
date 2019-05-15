@@ -1,6 +1,6 @@
 <?php
 
-namespace Test;
+namespace Minions;
 
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
